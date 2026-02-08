@@ -85,9 +85,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
-        { to: 'https://ravenlens.ai/help', label: 'Help', position: 'right' },
+        { to: 'https://ravenlens.io/contact', label: 'Help', position: 'right' },
         {
           href: 'https://github.com/RavenLens/raven-lens-api',
           label: 'GitHub',
@@ -99,10 +99,10 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Content List',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],

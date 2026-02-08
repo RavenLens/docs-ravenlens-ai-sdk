@@ -11,17 +11,32 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+        <Heading as="h1" className={styles.heroTitle}>
+          Your data knows <br /> what’s next.
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={styles.heroSubtitle}>
+          Stop guessing what features your app-customers want. Let data tell you
+          on RavenLens. The AI-driven apps improvement platform.
+        </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/installation/JavaScript">
-            🚀 Install
+            className="button button--primary button--lg"
+            to="https://ravenlens.io#early-access">
+            Get Early Access
+          </Link>
+          <Link
+            className={clsx('button button--secondary button--lg', styles.secondaryButton)}
+            to="https://ravenlens.io#features">
+            See features
+          </Link>
+        </div>
+        <div style={{marginTop: '1rem'}}>
+          <Link
+            className={clsx('button button--secondary button--lg', styles.apiButton)}
+            to="/docs/intro">
+            Check API
           </Link>
         </div>
       </div>
@@ -33,12 +48,12 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Documentation ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Home`}
+      description="Stop guessing what features your app-customers want. Let data tell you on RavenLens.">
       <HomepageHeader />
-      <main>
+      {/* <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
     </Layout>
   );
 }
