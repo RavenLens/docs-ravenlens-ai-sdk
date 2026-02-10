@@ -18,7 +18,7 @@ function HomepageHeader() {
         </Heading>
         <p className={styles.heroSubtitle}>
           Stop guessing what features your app-customers want. Let data tell you
-          on RavenLens. The AI-driven apps improvement platform.
+          on RavenLens. The AI-Driven apps improvement platform.
         </p>
         <div className={styles.buttons}>
           <Link
