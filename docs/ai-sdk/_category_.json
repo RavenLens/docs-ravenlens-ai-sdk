@@ -1,8 +1,8 @@
 {
-  "label": "RavenLens AI-SDK",
+  "label": "RavenLens SDK",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Comprehensive documentation for the RavenLens AI-SDK."
+    "description": "Comprehensive documentation for the RavenLens AI SDK."
   }
 }

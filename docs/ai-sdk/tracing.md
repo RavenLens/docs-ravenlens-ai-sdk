@@ -1,21 +1,16 @@
----
-sidebar_position: 2
----
-
 # AI Tracing & Monitoring
 
-RavenLens provides powerful tracking capabilities for both direct AI provider usage and **AI Agents**.
+RavenLens provides powerful tracking capabilities for both direct AI provider usage and AI Agents.
 
 ## AI Providers
 
 You can track requests to various AI providers. The SDK wraps the provider's client and automatically sends telemetry data to RavenLens.
 
-### Supported AI providers
+### Supported Providers
 - OpenAI
 - Google Vertex AI / Gemini
 - Anthropic
 - Groq
-- Ollama
 - And more...
 
 ### Basic Usage (Without Session)
@@ -104,7 +99,7 @@ const nextTracker = new OpenAITracker(openai, {
 
 ## AI Agents
 
-RavenLens supports tracking for Agent frameworks like BeeAI and LangChain and more.
+RavenLens supports tracking for Agent frameworks like BeeAI and LangChain.
 
 ### BeeAI Framework Example
 
@@ -142,5 +137,3 @@ const { response, sessionId, traceId } = await trackedAgent
     .run({ prompt: "Help me with observability." })
     .observe(tracker.observer());
 ```
-
-<!-- TODO: Add more agents libraries examples and make it actual to ai-sdk state after usage of specicied tracing lib -->

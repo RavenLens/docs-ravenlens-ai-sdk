@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Session Management & Recording
 
 RavenLens allows you to track not just the AI interaction, but the user's entire journey on the frontend, correlating UI events with AI traces.

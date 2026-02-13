@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Prompt Management
 
 RavenLens allows you to manage your prompts externally and fetch them dynamically in your application. This enables you to update prompts without redeploying your code and supports versioning and variable interpolation.
@@ -21,7 +17,7 @@ const raven = new RavenLens({
 
 const promptId = "ravenlens_prompt:0924a6d2528b0ae8d";
 const version = { number: "1.0@release", type: "release" };
-const variables = { userName: "Sam Smith", age: 21 };
+const variables = { userName: "Sam Smith", age: 12 };
 
 // Fetch the prompt
 const prompt = await raven.prompts.get({ 

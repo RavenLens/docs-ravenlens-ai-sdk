@@ -76,7 +76,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'RavenLens',
+      title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',

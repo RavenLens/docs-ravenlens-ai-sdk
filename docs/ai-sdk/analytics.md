@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Analytics & Data Retrieval
 
 The RavenLens SDK provides methods to programmatically retrieve the data collected by your application, including traces and aggregated statistics.

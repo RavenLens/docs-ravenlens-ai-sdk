@@ -1,9 +1,4 @@
----
-sidebar_position: 1
----
-
-
-# Installation and Setup
+# RavenLens AI SDK
 
 The `@ravenlens/ai-sdk` is a comprehensive library for integrating RavenLens observability, prompt management, and session tracking into your AI applications.
 
